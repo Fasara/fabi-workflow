@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - id: pippo
-        uses: Fasara/composite-action-example@v1.2
+        uses: Fasara/composite-action-example@v1
         with:
           who-to-greet: "Fabiana"
       - run: echo random-number ${{ steps.pippo.outputs.random-number }}
