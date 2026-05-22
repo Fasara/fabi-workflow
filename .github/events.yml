@@ -8,8 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Check out code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v6
 
     - name: Run a one-line script
-      run: echo "Hello, world!"
+      run: echo "This is a test for pull request events and workflow dispatch events"
 
